@@ -46,7 +46,7 @@ export default function ContactSection() {
           <FaWhatsapp className="text-accent text-3xl mb-2" />
           <div className="font-bold text-base mb-1">WhatsApp</div>
           <a
-            href="https://wa.me/tonnum" // à remplacer par ton numéro
+            href="https://wa.me/+79533463625" // à remplacer par ton numéro
             className="text-accent hover:underline text-lg transition"
             target="_blank"
             rel="noopener noreferrer"
@@ -102,7 +102,11 @@ export default function ContactSection() {
         <h3 className="text-xl font-bold mb-2 text-foreground">
           Formulaire express
         </h3>
-        <form className="w-full flex flex-col gap-4">
+        <form
+          className="w-full flex flex-col gap-4"
+          action="https://formspree.io/f/xkgvwqly"
+          method="POST"
+        >
           <input
             type="text"
             name="name"

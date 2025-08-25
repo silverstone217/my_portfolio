@@ -12,7 +12,7 @@ const Header = () => {
         {/* logo */}
         <Link
           href={"/"}
-          className={`flex items-center gap-1.5
+          className={`flex items-center gap-1
             ${raleway.className} font-black uppercase
             text-lg tracking-wide group
             `}
